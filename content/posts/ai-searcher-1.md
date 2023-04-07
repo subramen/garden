@@ -40,7 +40,6 @@ For example, I came across a neat typeset format that I wanted to recreate. Exce
 
 {{< figure src="../../images/chatgpt-subheading-q2.png" caption="Part 2: Dial in to the specifics" align="center">}}
 
-
 Interactions with ChatGPT feel more natural than looking up something on a traditional search engine. Our bot must have this human-like quality to be a worthy search assistant.
 
 

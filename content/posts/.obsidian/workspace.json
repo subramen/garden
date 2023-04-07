@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "3bc8c3672b59db8d",
+        "id": "4b6a91c369c74227",
         "type": "tabs",
         "children": [
           {
-            "id": "c8165b1e1a52dda9",
+            "id": "87936401240dd1c8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ai-searcher-1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fbde28860dcf285",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ai-searcher-2.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ccb12c1a32504e29",
@@ -81,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ai-searcher-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ai-searcher-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ai-searcher-2.md"
+              }
             }
           }
         ]
@@ -138,8 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8165b1e1a52dda9",
+  "active": "5fbde28860dcf285",
   "lastOpenFiles": [
+    "ai-searcher-1.md",
+    "ai-searcher-2.md",
+    "Untitled.canvas",
     "ai-reader-1.md",
     "2023-03-27.md"
   ]
