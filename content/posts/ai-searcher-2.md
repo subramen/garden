@@ -158,6 +158,7 @@ answer = ask_gpt(paraphrase_prompt)['choices'][0]['text']
 ## Correct
 ChatGPT has devoured more books than is humanly possible, but still falters on factual correctness.
 
+<!-- TODO: update gh actions to use latest hugo -->
 {{< tweet user="ylecun" id="1643942324672536577" >}}
 
 So far we've been able to generate conversational answers derived from an external knowledgebase of PyTorch documents, but we have no way of actually verifying if the LLM's interpretation is correct.
