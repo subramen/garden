@@ -1,7 +1,7 @@
 ---
 title: "Make AI do the (re)search - Part 2"
 date: 2023-03-29T22:52:23+05:30
-draft: true
+draft: false
 summary: "Build your GPT-powered search agent in ~100 lines of code"
 tags: ['machine-learning', 'gpt']
 ---
