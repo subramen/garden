@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "ff34044c83047361",
+    "type": "split",
+    "children": [
+      {
+        "id": "58ce1f74ba284906",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "708b6ee88cdbe1da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/Get AI to do the reading for you.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d10407dd6810acc0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7606eb928840fca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03558a49281eba07",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4337f0d045cc4801",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "db4fed5d1b9d88cb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "acc78f1410f42add",
+    "type": "split",
+    "children": [
+      {
+        "id": "10463ebe07d9451f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a0c09d0cc8411a4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AI/Get AI to do the reading for you.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f7c0a07f4e3cc8c2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AI/Get AI to do the reading for you.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8bbfa0a6da83aa14",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "724d68f826982eb5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AI/Get AI to do the reading for you.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "708b6ee88cdbe1da",
+  "lastOpenFiles": [
+    "AI/Get AI to do the reading for you.md",
+    "Tech x ECO/Microfarms.md",
+    "Tech x ECO/Sustainable AI Resources.md",
+    "Tech x ECO/Energy.md",
+    "Tech x ECO/Indigenous Living.md",
+    "AI in Eco-Sustainability.md",
+    "Body-Mind/treat-body-mind.md",
+    "Tech x ECO/Water Conservation.md",
+    "Tech x ECO/Homeschooling.md",
+    "Tech x ECO/Sustainable Construction.md",
+    "Tech x ECO/Reforestation.md",
+    "Tech x ECO",
+    "Caste System.md",
+    "Holistic Living/Sadhana Forest, Solitude Farm.md",
+    "Holistic Living",
+    "Body-Mind/how-do-we-perceive.md",
+    "vipassana_rough.md",
+    "AI",
+    "Body-Mind",
+    "Body-Mind/vipassana.md",
+    "AI/time-series.md",
+    "## \"So... is that like a yoga retreat?\""
+  ]
+}
