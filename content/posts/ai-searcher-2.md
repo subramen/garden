@@ -1,7 +1,7 @@
 ---
 title: "Make AI do the (re)search - Part 2"
 date: 2023-03-29T22:52:23+05:30
-draft: true
+draft: false
 summary: "Build your GPT-powered search agent in ~100 lines of code"
 tags: ['machine-learning', 'gpt']
 ---
@@ -199,7 +199,7 @@ print("\nREFERENCE TEXT \n---------\n", ref_text)
 From verifying the referenced sub-page, the bot has indeed correctly identified the sub-page containing the answer. 
 
 ## Web Tool
-Coming soon
+Try it out: [Online PyTorch Answer Engine](http://pytorchanswerengine-env.eba-2zyamddy.us-east-1.elasticbeanstalk.com/)
 
 ## Conclusion
 With modern LLM capabilities, it is very feasible to build a powerful answering agent. Although this blog demonstrates this on a very small example (a single Wikipedia article), the same approach can scale to search answers across thousands and millions of documents. 
