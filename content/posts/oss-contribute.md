@@ -1,7 +1,7 @@
 ---
 title: "Why do people contribute to OSS for free?"
 date: 2023-03-10T11:52:25-04:00
-draft: false
+draft: true
 summary: 
 tags: ['opensource']
 ---
