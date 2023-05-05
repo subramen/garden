@@ -1,8 +1,8 @@
 ---
 title: "Eating in the Dark"
-summary: "Darkness retreats and the pineal gland"
+summary: "Darkness retreats and their links to the pineal gland"
 date: 2023-05-01
-draft: False
+draft: True
 tags: ['healthy-living', 'spirituality']
 ---
 
