@@ -1,7 +1,7 @@
 ---
-title: "PyTorch Advocacy"
+title: "My portfolio of PyTorch writings"
 date: 2023-04-26T15:22:58-04:00
-draft: true
+draft: false
 summary:
 tags: ['machine-learning', 'pytorch', 'devrel']
 ---
