@@ -8,7 +8,7 @@ tags: ['machine-learning', 'gpt']
 
 ## A Conversational Answering Agent
 
-The [previous post](ai-searcher-1.md) gave us a general overview about that qualities that make a good question-answering chatbot:
+The [previous post](ai-searcher-1.md) gave us a general overview about the qualities that make a good question-answering chatbot:
 
 > 1.  **Conversational** we shouldn’t need to search-optimize the query for better results.
 > 1.  **Correct** the answers should be accurate and verifiable.
