@@ -1,15 +1,13 @@
 ---
 title: "All About Embeddings"
-summary: "and the multidimensional worlds our AI inhabit"
+summary: "... and the multidimensional worlds our AI inhabit."
 date: 2023-11-10
 draft: False
 tags: ['machine-learning']
 ---
 
 > “What are embeddings?”
-
 > “Embeddings are a numerical representation of text that capture rich semantic informa-”
-
 > “No, not the definition. What are embeddings, really?”
 
 Embeddings are a fascinating concept, as they form the internal language for machine learning models. This interests me because language plays such a central role in human intelligence, and structures in language reflect how we perceive the world. In the same way, embeddings offer a window into the world through the eyes of a machine learning model.
@@ -32,5 +30,6 @@ Vectors are so prevalent in ML because they follow the rules of linear algebra. 
 
 You can also scale and combine them in different ways, which makes vectors good for creating complex ideas from simpler ones, like:
 
-```refined_taste = [pizza] + 10*[pineapple]
+```
+refined_taste = [pizza] + 10*[pineapple]
 ```
