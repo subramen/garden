@@ -41,10 +41,15 @@ jobs:
       - name: Check version
         if: ${{ github.event.inputs.hugoVersion }}
         run: export HUGO_VERSION="${{ github.event.inputs.hugoVersion }}"
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-arm64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      # - name: Install Hugo CLI
+      #   run: |
+      #     wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-arm64.deb \
+      #     && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install a binary from GitHub releases
+        uses: jaxxstorm/action-install-gh-release@v1.10.0
+        with:
+          repo: gohugoio/hugo
+          tag: v0.121.0
       - name: Checkout
         uses: actions/checkout@v3
         with:
