@@ -36,10 +36,6 @@ languages:
                 - name: Tags
                   url: tags/
                   weight: 10
-                # - name: WiKi
-                #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-                # - name: Discord
-                #   url: https://discord.gg/ahpmTvhVmp
 
 outputs:
     home:
@@ -52,7 +48,7 @@ params:
     description: "Suraj Subramanian's personal blog"
     author: Suraj
 
-    defaultTheme: auto
+    defaultTheme: light
     # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
