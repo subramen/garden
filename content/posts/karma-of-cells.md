@@ -6,24 +6,26 @@ draft: false
 date: 2024-03-07
 ---
 
-### Inheritance at the macro- and microcosm
+### Inheritance at the macro- and micro-cosm
 Many non-European philosophies around the world emphasize the concept of _transgenerational interconnectedness_; the actions of one generation influence the next through the web of cause and effect. Indeed, we are born in a world shaped by our ancestors, their virtues, and their shortcomings. In turn, we hope to beget children who inherit our strengths and hopefully improve upon our failings, thus ensuring the continued progress of our species. 
 
 {{< figure src="../../images/inheritance.jpeg" align="center">}}
 
-The human body itself witnesses many generations of cellular civilizations.
-Every single day, it replaces 330 billion cells or 1% of the entire body [<font size=3>_[Our Bodies Replace Billions of Cells Every Day](https://www.scientificamerican.com/article/our-bodies-replace-billions-of-cells-every-day/)_</font>].
-Cells reproduce by splitting their DNA into new daughter-cells, and then die off once they reach their maximum age.
+Our cells are actually not too different. During a typical lifetime, a human body witnesses several generations of cellular civilizations.
+Every single day, 330 billion new cells (or 1% of the entire body) replace aged and worn out cells [<font size=3>_[Our Bodies Replace Billions of Cells Every Day](https://www.scientificamerican.com/article/our-bodies-replace-billions-of-cells-every-day/)_</font>].
 
 ### Cells learn from their experiences
-Think of a cell's DNA as a vast cookbook, with each gene being a recipe for a specific protein. As the cell goes through life, it faces different situations and has to react to them. So, it figures out which genes (or recipes) to use to make the right proteins for each situation. This knowledge is stored in the cell's _epigenome_, a kind of cellular diary that remembers which recipes worked best [<font size=3>_[The Epigenome Learns From Its Experiences](https://learn.genetics.utah.edu/content/epigenetics/memory)_</font>]. Unlike DNA, which changes slowly and randomly over many generations, the epigenome can change a lot in just one lifetime.
 
 {{< figure src="../../images/cell-epigenome-diary.jpeg" align="center">}}
 
-### Cells inherit their parents' experiences
-The cellular diary, the epigenome, is shaped by how the cell senses things, how it reacts to those things, and what it thinks will happen next. We used to think that parent cells only passed on their DNA to their offspring, leaving them to start their own diaries. But now we know that the parent's epigenome - the story of their experience - is also passed down. For example, research has shown that children of Holocaust survivors have identical markers in their epigenome as their parents, even though they didn't go through the same traumatic experience [<font size=3>_[Study of Holocaust survivors finds trauma passed on to children's genes](https://www.theguardian.com/science/2015/aug/21/study-of-holocaust-survivors-finds-trauma-passed-on-to-childrens-genes)_</font>]. Our cells can carry the echoes of experiences we've never personally lived.
+As a cell goes through life, it faces different situations and has to act accordingly by synthesizing the right proteins. This is where the 
+cell's DNA plays a critical role; think of a cell's DNA as a vast cookbook. Each recipe in this cookbook is a _gene_ which contains the instructions to prepare a protein. So when faced with a particular situation, a cell will _express_ certain genes that allow it to do a wide range of essential functions like communicate, create hormones, fight off invaders, transport nutrients and many other physiological processes essential for its survival and functioning. This _gene expression_, or the knowledge of when to express which genes, is stored in the cell's _epigenome_, a kind of cellular diary that remembers which recipes worked best [<font size=3>_[The Epigenome Learns From Its Experiences](https://learn.genetics.utah.edu/content/epigenetics/memory)_</font>]. Unlike DNA, which changes slowly and randomly over many generations, the epigenome can change a lot in just one lifetime.
 
-### Our experiences shape our personalities
+
+### Cells inherit their parents' experiences
+So the epigenome ends up being shaped by what the cell senses, how it reacts, and what it expects to happen next. We used to think that every new cell starts an epigenome from scratch, but now we know that the parent cell's epigenome - the story of their experience - is also passed down. Research has shown that children of Holocaust survivors have identical markers in their epigenome as their parents, even though they didn't go through the same traumatic experience [<font size=3>_[Study of Holocaust survivors finds trauma passed on to children's genes](https://www.theguardian.com/science/2015/aug/21/study-of-holocaust-survivors-finds-trauma-passed-on-to-childrens-genes)_</font>]. This finding has profound implications... offspring - whether human or cellular, and whether they like it or not - inherit their parents' perspectives, instincts, and the epigenetic heuristics that dictate how it will respond and act. Our cells carry the echoes of experiences we've never personally lived.
+
+### We are shaped by our experiences
 These echoes can be foundational to what we perceive and how we act. Consider something as simple as eating ice cream. The experience of choosing the flavour, savoring the ice cream, the subsequent delights in the tongue and the brain... all of it is saved in the epigenome. Long after the ice cream is gone, your cells remember the pleasure it brought you. 
 And your cells will ensure this learned experience is not forgotten by passing it to its offspring, embedding your perceptions and actions in the very fabric of your being.
 
