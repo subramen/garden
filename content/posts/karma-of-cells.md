@@ -11,7 +11,7 @@ Many non-European philosophies around the world emphasize the concept of _transg
 
 {{< figure src="../../images/inheritance.jpeg" align="center">}}
 
-Our cells are actually not too different. During a typical lifetime, a human body witnesses several generations of cellular civilizations.
+Our cells are actually not too different. During a typical lifetime, a human body witnesses several generations of cellular dynasties.
 Every single day, 330 billion new cells (or 1% of the entire body) replace aged and worn out cells [<font size=3>_[Our Bodies Replace Billions of Cells Every Day](https://www.scientificamerican.com/article/our-bodies-replace-billions-of-cells-every-day/)_</font>].
 
 ### Cells learn from their experiences
@@ -25,18 +25,16 @@ cell's DNA plays a critical role; think of a cell's DNA as a vast cookbook. Each
 ### Cells inherit their parents' experiences
 So the epigenome ends up being shaped by what the cell senses, how it reacts, and what it expects to happen next. We used to think that every new cell starts an epigenome from scratch, but now we know that the parent cell's epigenome - the story of their experience - is also passed down. Research has shown that children of Holocaust survivors have identical markers in their epigenome as their parents, even though they didn't go through the same traumatic experience [<font size=3>_[Study of Holocaust survivors finds trauma passed on to children's genes](https://www.theguardian.com/science/2015/aug/21/study-of-holocaust-survivors-finds-trauma-passed-on-to-childrens-genes)_</font>]. This finding has profound implications... offspring - whether human or cellular, and whether they like it or not - inherit their parents' perspectives, instincts, and the epigenetic heuristics that dictate how it will respond and act. Our cells carry the echoes of experiences we've never personally lived.
 
-### We are shaped by our experiences
-These echoes can be foundational to what we perceive and how we act. Consider something as simple as eating ice cream. The experience of choosing the flavour, savoring the ice cream, the subsequent delights in the tongue and the brain... all of it is saved in the epigenome. Long after the ice cream is gone, your cells remember the pleasure it brought you. 
-And your cells will ensure this learned experience is not forgotten by passing it to its offspring, embedding your perceptions and actions in the very fabric of your being.
-
 {{< figure src="../../images/karma_nola.gif" caption="\"Karma\" (Do-Ho Suh, 2011)" align="center">}}
 
-### The cycle of Karma
-All action originates from desire. Craving a gelato makes you want to eat some, and the ensuing dopamine rush makes you keep coming back for more. This is like a loop that keeps getting stronger, a self-perpetuating cycle. It starts with you wanting something. That want pushes you to do something about it. You act, and see what happens because of your actions. If the result makes you feel warm and fuzzy inside, you'll probably end up doing it again. This cycle is a lot like the Hindu doctrine of Karma; what we want, what we do, and the results of what we end up doing are all interconnected.
+### Our experiences shape who we are
+These echoes can be foundational to what our cells perceive and how they act. Consider something as simple as eating ice cream. The experience of choosing the flavour, savoring the ice cream, the subsequent delights in the tongue and the brain... all of it is saved in the epigenome. Long after the ice cream is gone, your cells will remember the pleasure it brought you. And your cells will ensure this learned experience is not forgotten by passing it to its offspring, embedding your perceptions and actions in the very fabric of your being. Your epigenome will store the ensuing dopamine rush and encourage you to seek it.
+
+All action originates from some desire. It starts with you wanting something. That want pushes you to do something about it. You act, and see what happens because of your actions. If the result makes you feel warm and fuzzy inside, you'll probably end up doing it again.  This is like a loop that keeps getting stronger, a self-perpetuating cycle, and looks a lot like the doctrine of Karma; what we want, what we do, and the results of what we end up doing are all interconnected.
 
 > Desire --> Will --> Action --> Result --> Desire ...
 
-Karma is often spoken about in terms of being rewarded or punished in the future for our current deeds. However, the true reward or punishment lies in the very act itself, not just its eventual consequences. Whatever we experience, think, and do alters us at the deepest level of our DNA. While these changes may seem small, they occur instantly and can have lasting effects, shaping our destiny [<font size=3>_see [samskara](https://en.wikipedia.org/wiki/Samskara_(Indian_philosophy))_</font>]. From this perspective, our actions tangibly shape not only our future but also our present reality. The fruits of our deeds may take time to manifest outwardly, but the seeds are planted within us in the moment we act.
+Karma is often spoken about in terms of being rewarded or punished in the future for our current deeds. What sometimes escapes us is that the reward or punishment lies in the very act itself, and not only its eventual consequences. Whatever we experience, think, and do alters us at the deepest level of our DNA. These epigenetic impressions form the cell's legacy and will be transmitted through thousands of generations, influencing our perceptions and actions in the future [<font size=3>_see [samskara](https://en.wikipedia.org/wiki/Samskara_(Indian_philosophy))_</font>]. From this perspective, our actions are causative not only of future results but also of our present selves. The fruits of our deeds may take time to manifest outwardly, but the seeds are planted within us in the moment we act.
 
 ### Science and spirtuality - two sides of the same coin
 What the scientist cannot explain objectively, the philosopher will employ logic to debate and the theologian will interpret with myths. The 8th century theologist, philosopher and Vedic scholar Shankara emphatically declared that our future is determined solely by our actions, rejecting the notion of a divine "karma police" keeping score of our deeds. As scientific understanding is catching up, we are starting to see karma not simply as a moral or philosophical idea but a biological reality validated by empirical evidence.
