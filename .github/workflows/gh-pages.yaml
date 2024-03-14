@@ -1,4 +1,4 @@
-name: Deploy Hugo PaperMod Demo to Pages
+name: Deploy Blog to Pages
 
 on:
   push:
@@ -7,8 +7,7 @@ on:
       - "LICENSE"
       - "README.md"
     branches:
-      - master
-      - exampleSite
+      - main
   workflow_dispatch:
     # manual run
     inputs:
@@ -37,20 +36,26 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: ${{ github.event.inputs.hugoVersion || '0.112.4' }}
     steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Check version
+        if: ${{ github.event.inputs.hugoVersion }}
+        run: export HUGO_VERSION="${{ github.event.inputs.hugoVersion }}"
+      # - name: Install Hugo CLI
+      #   run: |
+      #     wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-arm64.deb \
+      #     && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install a binary from GitHub releases
+        uses: jaxxstorm/action-install-gh-release@v1.10.0
+        with:
+          repo: gohugoio/hugo
+          tag: v0.123.8
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          ref: exampleSite
+          ref: main
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v1
       - name: Get Theme
         run: git submodule update --init --recursive
       - name: Update theme to Latest commit
@@ -58,7 +63,7 @@ jobs:
       - name: Build with Hugo
         run: |
           hugo \
-            --buildDrafts --gc \
+            --buildDrafts --gc --verbose \
             --baseURL ${{ steps.pages.outputs.base_url }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
@@ -76,21 +81,24 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
 
-# name: Deploy Blog to Pages
+# name: Deploy Hugo PaperMod Demo to Pages
 
 # on:
 #   push:
 #     paths-ignore:
+#       - "images/**"
 #       - "LICENSE"
 #       - "README.md"
 #     branches:
-#       - main
+#       - master
+#       - exampleSite
 #   workflow_dispatch:
 #     # manual run
 #     inputs:
 #       hugoVersion:
 #         description: "Hugo Version"
 #         required: false
+#         default: "0.112.4"
 
 # # Allow one concurrent deployment
 # concurrency:
@@ -112,26 +120,20 @@ jobs:
 #   # Build job
 #   build:
 #     runs-on: ubuntu-latest
+#     env:
+#       HUGO_VERSION: ${{ github.event.inputs.hugoVersion || '0.112.4' }}
 #     steps:
-#       # - name: Check version
-#       #   if: ${{ github.event.inputs.hugoVersion }}
-#       #   run: export HUGO_VERSION="${{ github.event.inputs.hugoVersion }}"
-#       # - name: Install Hugo CLI
-#       #   run: |
-#       #     wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-arm64.deb \
-#       #     && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-#       - name: Install a binary from GitHub releases
-#         uses: jaxxstorm/action-install-gh-release@v1.10.0
-#         with:
-#           repo: gohugoio/hugo
-#           tag: v0.123.8
+#       - name: Install Hugo CLI
+#         run: |
+#           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.deb \
+#           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 #       - name: Checkout
 #         uses: actions/checkout@v3
 #         with:
-#           ref: main
+#           ref: exampleSite
 #       - name: Setup Pages
 #         id: pages
-#         uses: actions/configure-pages@v1
+#         uses: actions/configure-pages@v3
 #       - name: Get Theme
 #         run: git submodule update --init --recursive
 #       - name: Update theme to Latest commit
@@ -139,10 +141,10 @@ jobs:
 #       - name: Build with Hugo
 #         run: |
 #           hugo \
-#             --buildDrafts --gc --verbose \
+#             --buildDrafts --gc \
 #             --baseURL ${{ steps.pages.outputs.base_url }}
 #       - name: Upload artifact
-#         uses: actions/upload-pages-artifact@v1
+#         uses: actions/upload-pages-artifact@v2
 #         with:
 #           path: ./public
 #   # Deployment job
@@ -155,4 +157,4 @@ jobs:
 #     steps:
 #       - name: Deploy to GitHub Pages
 #         id: deployment
-#         uses: actions/deploy-pages@v1
+#         uses: actions/deploy-pages@v2
