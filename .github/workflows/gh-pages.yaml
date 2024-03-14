@@ -13,7 +13,6 @@ on:
       hugoVersion:
         description: "Hugo Version"
         required: false
-        default: "0.123.8"
 
 # Allow one concurrent deployment
 concurrency:
@@ -36,7 +35,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: "0.121.0"
+      HUGO_VERSION: "0.123.8"
     steps:
       # - name: Check version
       #   if: ${{ github.event.inputs.hugoVersion }}
@@ -49,7 +48,7 @@ jobs:
         uses: jaxxstorm/action-install-gh-release@v1.10.0
         with:
           repo: gohugoio/hugo
-          tag: v${{ github.event.inputs.hugoVersion }}
+          tag: v${HUGO_VERSION}
       - name: Checkout
         uses: actions/checkout@v3
         with:
