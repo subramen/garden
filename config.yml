@@ -60,7 +60,6 @@ params:
     ShowRssButtonInSectionTermList: true
     ShowToc: true
     # comments: false
-    images: ["papermod-cover.png"]
 
     profileMode:
         enabled: false
